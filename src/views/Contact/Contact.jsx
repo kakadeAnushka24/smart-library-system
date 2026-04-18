@@ -4,20 +4,34 @@ import "./Contact.css";
 import BodyContainer from "../../components/BodyContainer/BodyContainer";
 import PageTitle from "../../components/PageTitle/PageTitle";
 
-
 function Contact() {
-    return ( <div>
+    return ( 
+    <div>
         <Navbar active="contact"/>
-         <PageTitle title="Contact Us" />  
-       <BodyContainer>
-<div className="contact-form"><form>
-    <input type="text" placeholder="Enter Your Name:" /><br/><br/>
-    <input type="email" placeholder="Enter Your Email:"/>
-<br/><br/>
-<button type="button">Send</button>    
-</form></div>
+        <PageTitle title="Contact Us!!!" />  
 
-       </BodyContainer>
+        <BodyContainer>
+
+            <div className="contact-form">
+                <form>
+
+                    <h2 className="form-title">Contact Us</h2>
+
+                    <input type="text" placeholder="Full Name" required />
+                    
+                    <input type="email" placeholder="Email Address" required />
+
+                    <input type="text" placeholder="Subject" />
+
+                    <textarea placeholder="Write your message here..." rows="4" required></textarea>
+
+                    <button type="submit">Send Message</button>    
+
+                </form>
+            </div>
+
+        </BodyContainer>
+
         <Footer />
     </div>
     );
