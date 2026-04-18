@@ -1,0 +1,29 @@
+.navbar{
+    background-color: rgb(71, 15, 15);
+    border-radius: 10px 10px 0px 0px;
+    padding: 24px 20px;
+   
+}
+.heading{
+    font-size: 20px;
+    color: white;
+    align-items: center;
+}
+
+
+.menu-item{
+    text-decoration: none;
+    color: white;
+display: inline-flex;
+ margin-left: 90px;
+ align-items: center;
+
+}
+.menu-icon{
+    height: 18px;
+}
+.active-menu{
+position: relative;
+top:2px;
+    font-weight: bold;
+}

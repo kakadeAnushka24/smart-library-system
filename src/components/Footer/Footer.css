@@ -1,0 +1,15 @@
+.footer{
+    background-color: rgb(62, 8, 8);
+   padding: 10px;
+   height: 100px;
+}
+.contained{
+    color: white;
+    text-align: center;
+}
+.f-text{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
