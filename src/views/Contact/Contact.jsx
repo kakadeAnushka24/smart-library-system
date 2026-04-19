@@ -15,7 +15,7 @@ function Contact() {
             <div className="contact-form">
                 <form>
 
-                    <h2 className="form-title">Contact Us</h2>
+                    <h2 className="form-title">Connect With Smart Library</h2>
 
                     <input type="text" placeholder="Full Name" required />
                     
