@@ -14,7 +14,7 @@ function Home() {
 
     <div>
       <Navbar active="home" />
-    <PageTitle title="Read. Learn. Grow.!!!"  />      
+    <PageTitle title="Read. Learn. & Growwww.!!!"  />      
     <BodyContainer>
 
         <div className="products-container">
